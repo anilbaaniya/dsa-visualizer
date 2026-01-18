@@ -1,0 +1,152 @@
+{
+  "stack": {
+    "questions": [
+      {
+        "question": "What principle does a Stack follow?",
+        "options": ["FIFO", "LIFO", "FILO", "LILO"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which operation is used to add an element to a stack?",
+        "options": ["Insert", "Push", "Enqueue", "Add"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which operation removes the top element from a stack?",
+        "options": ["Delete", "Remove", "Pop", "Dequeue"],
+        "correctOption": 2
+      },
+      {
+        "question": "Which element can be accessed directly in a stack?",
+        "options": [
+          "Bottom element",
+          "Middle element",
+          "Any element",
+          "Top element"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "What happens when we try to push an element into a full stack?",
+        "options": [
+          "Underflow",
+          "Overflow",
+          "Segmentation fault",
+          "Runtime error"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What happens when we try to pop an element from an empty stack?",
+        "options": ["Overflow", "Garbage value", "Underflow", "Program stops"],
+        "correctOption": 2
+      },
+      {
+        "question": "Which data structure is used to implement function calls in programming?",
+        "options": ["Queue", "Array", "Linked List", "Stack"],
+        "correctOption": 3
+      },
+      {
+        "question": "Which of the following is NOT an application of stack?",
+        "options": [
+          "Undo/Redo operations",
+          "Expression evaluation",
+          "Breadth First Search",
+          "Function call management"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which operation is used to view the top element without removing it?",
+        "options": ["Top", "Peek", "Pop", "View"],
+        "correctOption": 1
+      },
+      {
+        "question": "Which data structure is most suitable for reversing a string?",
+        "options": ["Queue", "Array", "Stack", "Linked List"],
+        "correctOption": 2
+      }
+    ]
+  },
+  "queue": {
+    "questions": [
+      {
+        "question": "Which principle does a Queue follow?",
+        "options": ["LIFO", "FIFO", "FILO", "LILO"],
+        "correctOption": 1
+      },
+      {
+        "question": "Which operation is used to insert an element into a queue?",
+        "options": ["Push", "Insert", "Enqueue", "Add"],
+        "correctOption": 2
+      },
+      {
+        "question": "Which operation removes an element from a queue?",
+        "options": ["Pop", "Remove", "Delete", "Dequeue"],
+        "correctOption": 3
+      },
+      {
+        "question": "Which end is used for deletion in a linear queue?",
+        "options": ["Rear", "Middle", "Front", "Any end"],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the main drawback of a Linear Queue implemented using an array?",
+        "options": [
+          "Complex insertion",
+          "Complex deletion",
+          "Memory wastage",
+          "Slow access"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which queue overcomes the memory wastage problem of a linear queue?",
+        "options": [
+          "Priority Queue",
+          "Deque",
+          "Circular Queue",
+          "Simple Queue"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "In a Circular Queue, what happens after the rear reaches the last index?",
+        "options": [
+          "Queue becomes full",
+          "Rear moves to the first index",
+          "Elements are shifted",
+          "Insertion stops permanently"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is a Deque?",
+        "options": [
+          "Insertion at one end only",
+          "Deletion at one end only",
+          "Insertion and deletion at both ends",
+          "Circular queue with priority"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which of the following is NOT a type of Deque?",
+        "options": [
+          "Input-restricted Deque",
+          "Output-restricted Deque",
+          "Priority Deque",
+          "Double-ended Queue"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which data structure is best suited for CPU scheduling algorithms?",
+        "options": ["Stack", "Array", "Queue", "Linked List"],
+        "correctOption": 2
+      }
+    ]
+  }
+}

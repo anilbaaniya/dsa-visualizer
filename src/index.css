@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@layer utilities {
+  progress.custom-progress {
+    @apply appearance-none;
+  }
+
+  /* Track */
+  progress.custom-progress::-webkit-progress-bar {
+    @apply bg-gray-200 rounded-full;
+  }
+
+  /* Filled bar */
+  progress.custom-progress::-webkit-progress-value {
+    @apply bg-blue-500 rounded-full transition-all duration-700;
+  }
+
+  /* Firefox */
+  progress.custom-progress::-moz-progress-bar {
+    @apply bg-blue-500 rounded-full;
+  }
+}
+
+@keyframes moveStack {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-move-stack {
+  animation: moveStack 1.7s ease-in-out infinite;
+}
+
+@keyframes moveQueue {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-move-queue {
+  animation: moveQueue 2s ease-in-out infinite;
+}
+
+@keyframes moveTree {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+.animate-move-tree {
+  animation: moveTree 1.7s ease-in-out infinite;
+}
