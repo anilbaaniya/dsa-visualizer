@@ -1,4 +1,9 @@
 [[redirects]]
 from = "*/"
 to = "index.html"
-status 200
+status = 200
+
+[[headers]]
+for = "/questions.json"
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
