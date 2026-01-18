@@ -1,6 +1,6 @@
 import React from "react";
-import LinearQueueVisualization from "../features/linearQueue/linearQueueVisualization";
 import LinearQueueTheory from "../features/linearQueue/LinearQueueTheory";
+import LinearQueueVisualization from "../features/linearQueue/LinearQueueVisualization";
 import LinearQueueCode from "../features/linearQueue/LinearQueueCode";
 export default function LinearQueue() {
   return (
