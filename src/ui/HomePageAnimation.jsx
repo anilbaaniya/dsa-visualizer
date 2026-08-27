@@ -11,7 +11,7 @@ export default function HomePageAnimation() {
         Queue
       </button>
 
-      <button className="animate-move-tree rounded-full  absolute text-stone-600 top-60 left-120 border bg-blue-50 border-stone-300 px-10 py-4 font-bold shadow-xl ">
+      <button className="animate-move-tree rounded-full  absolute text-stone-600 top-60 left-120 border bg-stone-50 border-stone-300 px-10 py-4 font-bold shadow-xl ">
         Tree
       </button>
     </div>
