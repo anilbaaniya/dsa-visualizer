@@ -11,7 +11,7 @@ export default function Header() {
         to="/quiz"
         className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 text-stone-100 px-8 py-3 cursor-pointer font-semibold rounded-full"
       >
-        Play Quiz
+        Start Quiz
       </NavLink>
     </div>
   );
